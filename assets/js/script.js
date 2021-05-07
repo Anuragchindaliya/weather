@@ -4,7 +4,7 @@ const config = {
     cUrl: "https://api.countrystatecity.in/v1/countries",
     cKey: "dXRHa2l1QXZBMXNEUmxjdE9VZ2l5ejRudmZ4dVZwMUpTOTBOcnZtMg==",
     // weather
-    wUrl: "http://api.openweathermap.org/data/2.5/",
+    wUrl: "https://api.openweathermap.org/data/2.5/",
     wKey: "714e4f7af2ccc29175dfc4099ff59474",
 }
 
@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         // console.log(countryDropDown.value);
 
-    })
+    });
 });
 
 document.addEventListener("click", async (e) => {
